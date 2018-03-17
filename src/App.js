@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import * as pageContent from './constants.js';
 import { Button } from 'reactstrap';
+import AboutUs from './AboutUs.js';
+import GetBeer from './GetBeer.js';
 
 class App extends Component {
   render() {
@@ -12,7 +14,7 @@ class App extends Component {
           <header>
             <div className="header-icon"></div>
 
-            <nav>
+            <nav className="float-right">
               <ul>
                 <li>Beers</li>
                 <li>Breweries</li>
@@ -33,44 +35,26 @@ class App extends Component {
         </div>
 
         <div className="app-body">
-          <div class="row container">
-            <div className="get-beer row">
-              <div className="get-beer-info col-6">
-                <div className="get-beer-info-1">{pageContent.BEER_INFO_TITLE}</div>
-                <div className="get-beer-info-2">{pageContent.BEER_INFO_1}<br/>{pageContent.BEER_INFO_2}</div>
-              </div>
-              <form className="col-6">
-                <label>
-                  Name <input type="text" name="name" />
-                </label>
-                <input type="submit" value="Submit" />
-              </form>
-            </div>
-          </div>
-
-
-          <div className="about-us">
-            <h1>What makes us different?</h1>
-            <h2>WE’RE FOCUSED ON THE NEEDS OF BEER LOVERS.</h2>
-            <div className="about-us-detail">
-              <div>
-
-              </div>
-            </div>
-          </div>
+          <GetBeer />
+          <AboutUs />
         </div>
 
         <div className="app-footer">
           <footer>
-            <div className="footer-address">
-              12345 Fremont Ave., Suite 1001,<br/> Seattle, WA 98100
+            <div className="app-footer-left">
+              <div className="footer-address">
+                12345 Fremont Ave., Suite 1001,<br/> Seattle, WA 98100
+              </div>
+              <div className="footer-copyright">Copyright &copy; 2013 Beer’d, Inc</div>
             </div>
-            <div className="footer-copyright">Copyright &copy; 2013 Beer’d, Inc</div>
+
+            <div className="footer-icon float-right"></div>
           </footer>
         </div>
       </div>
     );
   }
+
 }
 
 export default App;
