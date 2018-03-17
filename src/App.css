@@ -8,10 +8,33 @@
   background-image: url("assets/img/hero@2x.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
+}
+.app .app-header header {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 20%;
+}
+.app .app-header header .header-icon {
+  display: inline-block;
+  height: 100%;
+  width: 10%;
+  background-image: url("assets/img/logo@2x.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.app .app-header header nav {
+  display: inline-block;
+}
+.app .app-header header nav ul li {
+  display: inline-block;
 }
 .app .app-body {
   width: 100%;
 }
 .app .app-footer {
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
 }
