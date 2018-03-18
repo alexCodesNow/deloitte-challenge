@@ -1,3 +1,6 @@
+@import './assets/fonts/open-sans/stylesheet.css';
+@import './assets/fonts/pacifico/stylesheet.css';
+
 html {
   height: 100%;
 }

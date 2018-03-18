@@ -16,11 +16,11 @@ class GetBeer extends Component {
 
           <form className="col-6">
             <div className="form-group">
-              <label for="test1">What’s your favorite beer?</label>
+              <label for="test1" className="get-beer-form-label">What’s your favorite beer?</label>
               <input id="test1" className="form-control" placeholder="Jane Doe"/>
             </div>
             <div className="form-group">
-              <label for="test2">How many times a week do you drink beer?</label>
+              <label for="test2" className="get-beer-form-label">How many times a week do you drink beer?</label>
               <select className="form-control" id="test2">
                 <option value="" selected disabled>Select an option</option>
                 <option value="">Once</option>
@@ -29,7 +29,7 @@ class GetBeer extends Component {
               </select>
             </div>
             <button type="submit" className="get-beer-btn btn btn-danger">Get Advice</button>
-            <button type="submit" className="get-beer-btn btn btn-primary">Get a Beer</button>
+            <button type="submit" className="get-beer-btn btn btn-primary gbb-2">Get a Beer</button>
           </form>
 
         </div>

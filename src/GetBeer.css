@@ -1,4 +1,26 @@
+.get-beer {
+  margin-top: 20px;
+}
+.get-beer .get-beer-info .get-beer-info-1 {
+  font-size: 32px;
+}
+.get-beer .get-beer-info .get-beer-info-2 {
+  font-size: 16px;
+}
+.get-beer form {
+  font-size: 16px;
+}
 .get-beer form .get-beer-btn {
   width: 150px;
   border-radius: 20px;
+}
+.get-beer form .get-beer-btn.gbb-2 {
+  margin-left: 15px;
+}
+.get-beer form #test1,
+.get-beer form #test2 {
+  background-color: #F2F2F2;
+}
+.get-beer form .get-beer-form-label {
+  font-family: 'OpenSansBold';
 }

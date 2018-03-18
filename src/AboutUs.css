@@ -1,6 +1,16 @@
 .about-us {
   background-color: #F1F0F0;
 }
+.about-us .about-us-head {
+  font-size: 44px;
+}
+.about-us .about-us-title {
+  font-size: 29px;
+}
+.about-us .about-us-detail .about-us-detail-h {
+  font-family: 'OpenSansBold';
+  font-size: 22px;
+}
 .about-us .about-us-detail .about-us-detail-i {
   height: 55px;
   width: 55px;
@@ -9,6 +19,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.about-us .about-us-detail .about-us-detail-t {
+  font-family: 'OpenSansItalic';
+  font-size: 20px;
 }
 .about-us .about-us-detail .about-us-detail-1 .about-us-detail-i {
   height: 90px;
